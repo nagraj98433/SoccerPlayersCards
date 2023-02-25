@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SoccerPlayersCards/static/css/main.05d955bf.css",
+    "main.js": "/SoccerPlayersCards/static/js/main.95969bba.js",
+    "static/js/787.151bf9b0.chunk.js": "/SoccerPlayersCards/static/js/787.151bf9b0.chunk.js",
+    "index.html": "/SoccerPlayersCards/index.html",
+    "main.05d955bf.css.map": "/SoccerPlayersCards/static/css/main.05d955bf.css.map",
+    "main.95969bba.js.map": "/SoccerPlayersCards/static/js/main.95969bba.js.map",
+    "787.151bf9b0.chunk.js.map": "/SoccerPlayersCards/static/js/787.151bf9b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d955bf.css",
+    "static/js/main.95969bba.js"
+  ]
+}
