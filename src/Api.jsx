@@ -6,7 +6,6 @@ import SearchField from './SearchField'
 function Api() {
   let [mydata, setmydata] = useState([])
   let [UserVal, setUserVal] = useState('')
-  // let [Date, setDate] = useState(new Date())
 
 
   // using promises
@@ -41,12 +40,6 @@ function Api() {
         <div className="row d-flex justify-content-center">
           <div className="col-8">
             <SearchField user_Input={UserInput} />
-            {/* {mydata.map((val, ind) => {
-              return val.playerList.map((V) => {
-                return (V.PFName.toUpperCase().indexOf(UserVal) == -1) || (V.TName.toUpperCase().indexOf(UserVal) == -1) ?
-                  <p><small className='text-warning'>Ooops...! Not found.</small></p> : null
-              })
-            })} */}
           </div>
         </div>
       </div>
@@ -57,7 +50,8 @@ function Api() {
               return (oldVal.PFName.toUpperCase().indexOf(UserVal) > -1) || (oldVal.TName.toUpperCase().indexOf(UserVal) > -1) ?
                 <div className='col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5' key={ind} >
                   <div className="card grow">
-                    <img src={`./img/${oldVal.Id}.jpg`} alt="players" className="card-img-top" />
+                    {/* <img src={`./img/${oldVal.Id}.jpg`} alt="players" className="card-img-top" /> */}
+                    <img src={require(`../src/img/${oldVal.Id}.jpg`)} alt="players" className="card-img-top" />
                     <div className="card-body bg-dark text-secondary">
                       <h6 className="card-title"><small>{`Name : ${oldVal.PFName}`}</small></h6>
                       <h6><small>{`Skill : ${oldVal.SkillDesc}`}</small></h6>
