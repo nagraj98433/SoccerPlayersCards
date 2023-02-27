@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SoccerPlayersCards/static/css/main.30b35e0c.css",
+    "main.css": "/SoccerPlayersCards/static/css/main.a669e4af.css",
     "main.js": "/SoccerPlayersCards/static/js/main.4be66793.js",
     "static/js/787.151bf9b0.chunk.js": "/SoccerPlayersCards/static/js/787.151bf9b0.chunk.js",
     "static/media/99690.jpg": "/SoccerPlayersCards/static/media/99690.7ecb5dcbb744c97eb25d.jpg",
@@ -54,12 +54,12 @@
     "static/media/93321.jpg": "/SoccerPlayersCards/static/media/93321.7d27534d232432289a0d.jpg",
     "static/media/102225.jpg": "/SoccerPlayersCards/static/media/102225.e67f344e021ce3d655c8.jpg",
     "index.html": "/SoccerPlayersCards/index.html",
-    "main.30b35e0c.css.map": "/SoccerPlayersCards/static/css/main.30b35e0c.css.map",
+    "main.a669e4af.css.map": "/SoccerPlayersCards/static/css/main.a669e4af.css.map",
     "main.4be66793.js.map": "/SoccerPlayersCards/static/js/main.4be66793.js.map",
     "787.151bf9b0.chunk.js.map": "/SoccerPlayersCards/static/js/787.151bf9b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b35e0c.css",
+    "static/css/main.a669e4af.css",
     "static/js/main.4be66793.js"
   ]
 }
