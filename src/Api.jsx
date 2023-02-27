@@ -51,7 +51,7 @@ function Api() {
                 <div className='col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5' key={ind} >
                   <div className="card grow">
                     {/* <img src={`./img/${oldVal.Id}.jpg`} alt="players" className="card-img-top" /> */}
-                    <img src={require(`../src/img/${oldVal.Id}.jpg`)} alt="players" className="card-img-top" />
+                    <img src={require(`../src/img/${oldVal.Id}.jpg`)} alt="players" className="card-img-top grow" />
                     <div className="card-body bg-dark text-secondary">
                       <h6 className="card-title"><small>{`Name : ${oldVal.PFName}`}</small></h6>
                       <h6><small>{`Skill : ${oldVal.SkillDesc}`}</small></h6>
